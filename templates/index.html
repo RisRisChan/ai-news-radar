@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI News Radar</title>
+    <style>
+        :root {
+            --bg: #ffffff;
+            --bg-card: #f8f9fa;
+            --text: #1a1a1a;
+            --text-secondary: #6b7280;
+            --border: #e5e7eb;
+            --accent: #2563eb;
+            --accent-hover: #1d4ed8;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #0f172a;
+                --bg-card: #1e293b;
+                --text: #f1f5f9;
+                --text-secondary: #94a3b8;
+                --border: #334155;
+                --accent: #60a5fa;
+                --accent-hover: #93bbfd;
+            }
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "Noto Sans JP", sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 24px 16px;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 32px;
+            padding-bottom: 16px;
+            border-bottom: 2px solid var(--border);
+        }
+        header h1 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+        }
+        header p {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            margin-top: 4px;
+        }
+        .section-header {
+            font-size: 1.3rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+            padding: 10px 16px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .section-header .count {
+            font-size: 0.85rem;
+            font-weight: 400;
+            color: var(--text-secondary);
+        }
+        .section-claude .section-header {
+            background: linear-gradient(135deg, #d9764815, #e8956a15);
+            border-left: 4px solid #d97648;
+        }
+        .section-international .section-header {
+            background: linear-gradient(135deg, #2563eb15, #60a5fa15);
+            border-left: 4px solid #2563eb;
+        }
+        .section-domestic .section-header {
+            background: linear-gradient(135deg, #dc262615, #f8717115);
+            border-left: 4px solid #dc2626;
+        }
+        .section {
+            margin-bottom: 40px;
+        }
+        .date-group {
+            margin-bottom: 24px;
+        }
+        .date-header {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--text-secondary);
+            margin-bottom: 10px;
+            padding-bottom: 4px;
+            border-bottom: 1px solid var(--border);
+        }
+        .card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 10px;
+            padding: 16px;
+            margin-bottom: 12px;
+            transition: border-color 0.2s;
+        }
+        .card:hover {
+            border-color: var(--accent);
+        }
+        .card-title {
+            font-size: 1rem;
+            font-weight: 600;
+            margin-bottom: 6px;
+        }
+        .card-title a {
+            color: var(--accent);
+            text-decoration: none;
+        }
+        .card-title a:hover {
+            color: var(--accent-hover);
+            text-decoration: underline;
+        }
+        .card-original-title {
+            color: var(--text-secondary);
+            font-size: 0.8rem;
+            font-style: italic;
+            margin-bottom: 4px;
+        }
+        .card-meta {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 8px;
+            font-size: 0.8rem;
+        }
+        .badge {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 500;
+            background: var(--accent);
+            color: #fff;
+        }
+        .badge-techcrunch { background: #0a9e01; }
+        .badge-verge { background: #e6007a; }
+        .badge-mit { background: #7c3aed; }
+        .badge-openai { background: #000; }
+        .badge-google { background: #4285f4; }
+        .badge-venturebeat { background: #e67e22; }
+        .badge-ars { background: #ff4c00; }
+        .badge-itmedia { background: #0068b7; }
+        .badge-aischolar { background: #1e88e5; }
+        .badge-gigazine { background: #333; }
+        .badge-pcwatch { background: #00838f; }
+        .badge-changelog { background: #d97648; }
+        .badge-anthropic { background: #d97648; }
+        .card-time {
+            color: var(--text-secondary);
+        }
+        .card-summary {
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+            line-height: 1.5;
+        }
+        .empty {
+            text-align: center;
+            padding: 48px 16px;
+            color: var(--text-secondary);
+        }
+        footer {
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 0.8rem;
+            margin-top: 32px;
+            padding-top: 16px;
+            border-top: 1px solid var(--border);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>AI News Radar</h1>
+            <p>{{ total_count }} articles &middot; Updated {{ updated_at }}</p>
+        </header>
+
+        {% macro render_card(article) %}
+        <div class="card">
+            <div class="card-title">
+                <a href="{{ article.url }}" target="_blank" rel="noopener">{{ article.title_ja or article.title }}</a>
+            </div>
+            {% if article.title_ja %}
+            <div class="card-original-title">{{ article.title }}</div>
+            {% endif %}
+            <div class="card-meta">
+                {% set src = article.source.lower().replace(" ", "") %}
+                <span class="badge
+                    {%- if 'techcrunch' in src %} badge-techcrunch
+                    {%- elif 'verge' in src %} badge-verge
+                    {%- elif 'mit' in src %} badge-mit
+                    {%- elif 'openai' in src %} badge-openai
+                    {%- elif 'google' in src %} badge-google
+                    {%- elif 'venturebeat' in src %} badge-venturebeat
+                    {%- elif 'ars' in src %} badge-ars
+                    {%- elif 'itmedia' in src %} badge-itmedia
+                    {%- elif 'scholar' in src %} badge-aischolar
+                    {%- elif 'gigazine' in src %} badge-gigazine
+                    {%- elif 'pcwatch' in src or 'pc watch' in src %} badge-pcwatch
+                    {%- elif 'changelog' in src %} badge-changelog
+                    {%- elif 'anthropic' in src %} badge-anthropic
+                    {%- endif %}">{{ article.source }}</span>
+                <span class="card-time">{{ article.published.strftime('%H:%M') }}</span>
+            </div>
+            {% if article.summary_ja %}
+            <div class="card-summary">{{ article.summary_ja }}</div>
+            {% elif article.summary %}
+            <div class="card-summary">{{ article.summary }}</div>
+            {% endif %}
+        </div>
+        {% endmacro %}
+
+        {% macro render_section(grouped, section_class, label, count) %}
+        <div class="section {{ section_class }}">
+            <div class="section-header">{{ label }} <span class="count">({{ count }})</span></div>
+            {% if grouped %}
+                {% for date, articles in grouped.items() %}
+                <div class="date-group">
+                    <div class="date-header">{{ date }}</div>
+                    {% for article in articles %}
+                    {{ render_card(article) }}
+                    {% endfor %}
+                </div>
+                {% endfor %}
+            {% else %}
+                <div class="empty"><p>No articles found.</p></div>
+            {% endif %}
+        </div>
+        {% endmacro %}
+
+        {% if claude or international or domestic %}
+            {{ render_section(claude, "section-claude", "Claude / Anthropic", claude_count) }}
+            {{ render_section(domestic, "section-domestic", "国内", domestic_count) }}
+            {{ render_section(international, "section-international", "海外", international_count) }}
+        {% else %}
+            <div class="empty">
+                <p>No new articles found.</p>
+            </div>
+        {% endif %}
+
+        <footer>
+            AI News Radar &mdash; Powered by RSS feeds
+        </footer>
+    </div>
+</body>
+</html>
