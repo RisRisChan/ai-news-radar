@@ -1,17 +1,5 @@
 {
   "urls": [
-    "https://techcrunch.com/2026/04/08/aws-boss-explains-why-investing-billions-in-both-anthropic-and-openai-is-an-ok-conflict/",
-    "https://techcrunch.com/2026/04/08/tubi-is-the-first-streamer-to-launch-a-native-app-within-chatgpt/",
-    "https://techcrunch.com/2026/04/08/astropads-workbench-reimagines-remote-desktop-for-ai-agents-not-it-support/",
-    "https://www.technologyreview.com/2026/04/08/1135398/mustafa-suleyman-ai-future/",
-    "https://openai.com/index/next-phase-of-enterprise-ai",
-    "https://openai.com/index/introducing-child-safety-blueprint",
-    "https://github.com/anthropics/claude-code/releases/tag/v2.1.96",
-    "https://github.com/anthropics/claude-code/releases/tag/v2.1.94",
-    "https://www.technologyreview.com/2026/04/07/1134966/enabling-agent-first-process-redesign/",
-    "https://www.technologyreview.com/2026/04/06/1135187/the-one-piece-of-data-that-could-actually-shed-light-on-your-job-and-ai/",
-    "https://www.technologyreview.com/2026/04/06/1135118/ai-online-seller-alibaba-accio/",
-    "https://openai.com/index/introducing-openai-safety-fellowship",
     "https://openai.com/index/industrial-policy-for-the-intelligence-age",
     "https://www.anthropic.com/news/google-broadcom-partnership-compute",
     "https://monoist.itmedia.co.jp/mn/articles/2604/13/news006.html",
@@ -4999,7 +4987,19 @@
     "https://pc.watch.impress.co.jp/docs/news/2134780.html",
     "https://techcrunch.com/2026/08/21/anthropics-opus-4-6-is-a-smut-machine/",
     "https://techcrunch.com/2026/08/21/nvidia-partners-with-data-center-developer-cloverleaf/",
-    "https://www.itmedia.co.jp/aiplus/article/2608/22/2000000697/"
+    "https://www.itmedia.co.jp/aiplus/article/2608/22/2000000697/",
+    "https://monoist.itmedia.co.jp/mn/articles/2608/24/news061.html",
+    "https://techcrunch.com/2026/08/23/whos-behind-the-new-stealth-model-ox-alpha/",
+    "https://techcrunch.com/2026/08/23/linkdazes-smart-calendar-is-built-to-run-a-household-not-just-track-a-schedule/",
+    "https://techcrunch.com/2026/08/23/flock-ceo-calls-for-compromise-as-surveillance-company-faces-growing-backlash/",
+    "https://techcrunch.com/2026/08/23/is-it-legal-to-train-ai-models-on-copyrighted-books-its-complicated/",
+    "https://gigazine.net/news/20260823-langfuse/",
+    "https://gigazine.net/news/20260823-transformer-piano/",
+    "https://gigazine.net/news/20260823-gemma-4-benchmark/",
+    "https://gigazine.net/news/20260823-roboflow-playground/",
+    "https://github.com/anthropics/claude-code/releases/tag/v2.1.241",
+    "https://gigazine.net/news/20260823-openai-lawsuit-chatgpt-medical-advice/",
+    "https://www.itmedia.co.jp/aiplus/article/2608/23/2000000700/"
   ],
-  "last_updated": "2026-08-22T22:26:26.833992+00:00"
+  "last_updated": "2026-08-23T22:26:49.093424+00:00"
 }
