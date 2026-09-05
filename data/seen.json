@@ -1,16 +1,5 @@
 {
   "urls": [
-    "https://www.itmedia.co.jp/aiplus/articles/2604/24/news072.html",
-    "https://www.itmedia.co.jp/aiplus/articles/2604/24/news073.html",
-    "https://www.anthropic.com/news/election-safeguards-update",
-    "https://www.anthropic.com/news/anthropic-nec",
-    "https://github.com/anthropics/claude-code/releases/tag/v2.1.119",
-    "https://www.itmedia.co.jp/business/articles/2604/24/news021.html",
-    "https://www.itmedia.co.jp/enterprise/articles/2604/24/news020.html",
-    "https://www.itmedia.co.jp/news/articles/2604/24/news068.html",
-    "https://monoist.itmedia.co.jp/mn/articles/2604/24/news066.html",
-    "https://www.anthropic.com/news/anthropic-amazon-compute",
-    "https://www.itmedia.co.jp/aiplus/articles/2604/26/news023.html",
     "https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/",
     "https://techcrunch.com/2026/04/25/maines-governor-vetoes-data-center-moratorium/",
     "https://techcrunch.com/2026/04/25/openai-ceo-apologizes-to-tumbler-ridge-community/",
@@ -4999,7 +4988,18 @@
     "https://techcrunch.com/2026/09/03/crusoe-reportedly-raises-3b-at-a-30b-valuation/",
     "https://www.anthropic.com/research/formalizing-fermats-last-theorem",
     "https://www.itmedia.co.jp/news/article/2609/04/2000001155/",
-    "https://monoist.itmedia.co.jp/mn/articles/2609/04/news033.html"
+    "https://monoist.itmedia.co.jp/mn/articles/2609/04/news033.html",
+    "https://gigazine.net/news/20260906-web-ai-signs/",
+    "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
+    "https://www.itmedia.co.jp/news/article/2609/06/2000001202/",
+    "https://techcrunch.com/2026/09/05/hikers-rescued-after-using-google-gemini-for-planning/",
+    "https://techcrunch.com/2026/09/05/openai-confirms-wiki-incident-says-its-working-on-a-framework-for-more-disclosure/",
+    "https://www.theverge.com/ai-artificial-intelligence/990773/openai-german-wiki-incident",
+    "https://gigazine.net/news/20260905-docubrowser/",
+    "https://atmarkit.itmedia.co.jp/ait/articles/2609/05/news009.html",
+    "https://pc.watch.impress.co.jp/docs/news/2138527.html",
+    "https://www.itmedia.co.jp/news/article/2609/05/2000001200/",
+    "https://openai.com/index/gpt-6-astra"
   ],
-  "last_updated": "2026-09-04T23:50:12.668337+00:00"
+  "last_updated": "2026-09-05T23:40:03.396342+00:00"
 }
