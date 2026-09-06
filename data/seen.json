@@ -1,16 +1,5 @@
 {
   "urls": [
-    "https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/",
-    "https://techcrunch.com/2026/04/25/maines-governor-vetoes-data-center-moratorium/",
-    "https://techcrunch.com/2026/04/25/openai-ceo-apologizes-to-tumbler-ridge-community/",
-    "https://techcrunch.com/2026/04/25/why-cohere-is-merging-with-aleph-alpha/",
-    "https://techcrunch.com/2026/04/25/why-tokyo-is-the-most-important-tech-destination-of-2026/",
-    "https://techcrunch.com/2026/04/25/apple-under-ternus-what-comes-next-for-the-tech-giants-hardware-strategy/",
-    "https://gigazine.net/news/20260425-anthropic-hackathon/",
-    "https://gigazine.net/news/20260425-meta-signs-agreement-aws-graviton/",
-    "https://kn.itmedia.co.jp/kn/articles/2604/27/news043.html",
-    "https://www.itmedia.co.jp/business/articles/2604/27/news048.html",
-    "https://www.itmedia.co.jp/news/articles/2604/08/news014.html",
     "https://kn.itmedia.co.jp/kn/articles/2604/27/news052.html",
     "https://kn.itmedia.co.jp/kn/articles/2604/27/news040.html",
     "https://pc.watch.impress.co.jp/docs/topic/special/2102875.html",
@@ -4999,7 +4988,18 @@
     "https://atmarkit.itmedia.co.jp/ait/articles/2609/05/news009.html",
     "https://pc.watch.impress.co.jp/docs/news/2138527.html",
     "https://www.itmedia.co.jp/news/article/2609/05/2000001200/",
-    "https://openai.com/index/gpt-6-astra"
+    "https://openai.com/index/gpt-6-astra",
+    "https://atmarkit.itmedia.co.jp/ait/articles/2609/07/news031.html",
+    "https://gigazine.net/news/20260907-ai-coding-cost-efficient/",
+    "https://pc.watch.impress.co.jp/docs/column/hothot/2138523.html",
+    "https://techcrunch.com/2026/09/06/authors-push-back-as-publishers-and-agents-seek-share-of-anthropic-settlement/",
+    "https://techcrunch.com/2026/09/06/travis-kalanicks-atoms-might-be-getting-into-the-robotaxi-business/",
+    "https://openai.com/index/an-alien-mind",
+    "https://gigazine.net/news/20260906-herdr/",
+    "https://openai.com/index/research-acceleration-view-inside-openai",
+    "https://gigazine.net/news/20260906-female-jobs-ai/",
+    "https://gigazine.net/news/20260906-compression-is-prediction/",
+    "https://github.com/anthropics/claude-code/releases/tag/v2.1.263"
   ],
-  "last_updated": "2026-09-05T23:40:03.396342+00:00"
+  "last_updated": "2026-09-06T23:38:28.877085+00:00"
 }
