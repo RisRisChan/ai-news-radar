@@ -1,17 +1,5 @@
 {
   "urls": [
-    "https://gigazine.net/news/20260519-anthropic-acquired-stainless/",
-    "https://gigazine.net/news/20260519-elon-musk-loses-sam-altman/",
-    "https://gigazine.net/news/20260519-meta-moves-7000-ai-role/",
-    "https://www.technologyreview.com/2026/05/18/1137488/elon-musk-suit-openai-verdict/",
-    "https://github.com/anthropics/claude-code/releases/tag/v2.1.144",
-    "https://www.anthropic.com/news/anthropic-kpmg",
-    "https://www.itmedia.co.jp/aiplus/article/2605/19/2000000003/",
-    "https://www.itmedia.co.jp/aiplus/article/2605/19/2000000004/",
-    "https://www.itmedia.co.jp/business/articles/2605/21/news026.html",
-    "https://techcrunch.com/2026/05/20/clouted-wants-to-take-the-guesswork-out-of-making-short-videos-go-viral/",
-    "https://techcrunch.com/2026/05/20/xai-burned-6-4b-last-year-spacexs-ipo-filing-shows-why-the-spending-is-far-from-over/",
-    "https://techcrunch.com/2026/05/20/nvidia-posts-another-record-quarter-reveals-43-billion-of-holdings-in-startups/",
     "https://techcrunch.com/2026/05/20/musks-xai-is-being-sued-over-its-data-center-generators-now-its-buying-2-8b-more/",
     "https://techcrunch.com/2026/05/20/anthropic-will-pay-xai-1-25-billion-per-month-for-compute/",
     "https://www.theverge.com/column/935021/google-io-gemini-for-science-alphafold-alphagenome-ai-health",
@@ -4999,7 +4987,19 @@
     "https://gigazine.net/news/20260925-google-project-suncatcher/",
     "https://gigazine.net/news/20260925-claude-safeguard-block-request/",
     "https://www.itmedia.co.jp/news/article/2609/25/2000001730/",
-    "https://www.anthropic.com/research/yes-claude-can-do-nine-loops"
+    "https://www.anthropic.com/research/yes-claude-can-do-nine-loops",
+    "https://gigazine.net/news/20260927-digital-camouflage-shirt/",
+    "https://kn.itmedia.co.jp/kn/article/2609/27/2000001764/",
+    "https://techcrunch.com/2026/09/26/insurers-claim-ai-is-already-increasing-healthcare-costs/",
+    "https://www.theverge.com/ai-artificial-intelligence/1001049/openai-training-pause",
+    "https://techcrunch.com/2026/09/26/i-created-an-interactive-digital-avatar-of-myself-and-you-can-talk-to-it/",
+    "https://www.theverge.com/podcast/1000344/cloudflare-matthew-prince-google-zero-ai-web-advertising",
+    "https://atmarkit.itmedia.co.jp/ait/articles/2609/26/news011.html",
+    "https://atmarkit.itmedia.co.jp/ait/articles/2609/26/news013.html",
+    "https://gigazine.net/news/20260926-automatic-bird-identification-system/",
+    "https://www.itmedia.co.jp/aiplus/article/2609/26/2000001774/",
+    "https://techcrunch.com/2026/09/25/at-meta-connect-the-companys-smart-glasses-were-everywhere/",
+    "https://gigazine.net/news/20260926-ai-tutor-human-gre-cost/"
   ],
-  "last_updated": "2026-09-26T00:27:06.576175+00:00"
+  "last_updated": "2026-09-27T00:22:12.325977+00:00"
 }
