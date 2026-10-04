@@ -1,18 +1,5 @@
 {
   "urls": [
-    "https://www.itmedia.co.jp/news/articles/2605/28/news090.html",
-    "https://gigazine.net/news/20260528-meta-new-plan/",
-    "https://pc.watch.impress.co.jp/docs/news/2112388.html",
-    "https://gigazine.net/news/20260528-google-ai-threat-defense/",
-    "https://gigazine.net/news/20260528-youtube-ai-label/",
-    "https://www.itmedia.co.jp/news/articles/2605/28/news082.html",
-    "https://www.itmedia.co.jp/enterprise/articles/2605/28/news061.html",
-    "https://www.itmedia.co.jp/aiplus/article/2605/28/2000000033/",
-    "https://github.com/anthropics/claude-code/releases/tag/v2.1.153",
-    "https://techcrunch.com/2026/05/27/why-googles-ai-cant-spell-google-or-anything-else/",
-    "https://openai.com/index/openai-frontier-governance-framework",
-    "https://www.anthropic.com/news/claude-opus-4-8",
-    "https://www.anthropic.com/news/series-h",
     "https://www.itmedia.co.jp/enterprise/articles/2605/28/news055.html",
     "https://www.itmedia.co.jp/aiplus/article/2605/28/2000000032/",
     "https://www.itmedia.co.jp/aiplus/article/2605/28/2000000024/",
@@ -4999,7 +4986,20 @@
     "https://gigazine.net/news/20261002-flux-3-image/",
     "https://www.itmedia.co.jp/news/article/2610/02/2000001950/",
     "https://openai.com/index/chatham-financial",
-    "https://www.anthropic.com/news/claude-frontier-academy"
+    "https://www.anthropic.com/news/claude-frontier-academy",
+    "https://github.com/anthropics/claude-code/releases/tag/v2.1.289",
+    "https://www.itmedia.co.jp/news/article/2610/04/2000001986/",
+    "https://techcrunch.com/2026/10/03/amazon-responds-to-data-center-backlash-says-it-no-longer-uses-ndas/",
+    "https://www.theverge.com/games/1004418/capcom-ai-game-development",
+    "https://techcrunch.com/2026/10/03/openai-safety-employee-resigns-claiming-the-companys-culture-is-broken/",
+    "https://www.theverge.com/entertainment/1004162/splice-ceo-kakul-srivastava-ai-interview",
+    "https://www.theverge.com/ai-artificial-intelligence/1004408/openai-safety-quits-sounding-the-alarm",
+    "https://techcrunch.com/2026/10/03/all-the-ai-agents-that-can-live-in-your-text-messages/",
+    "https://www.itmedia.co.jp/news/article/2610/03/2000001985/",
+    "https://gigazine.net/news/20261003-apple-limit-mac-full-disk-access-ai-agents-risk/",
+    "https://www.itmedia.co.jp/news/article/2610/03/2000001984/",
+    "https://www.itmedia.co.jp/news/article/2610/03/2000001983/",
+    "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/"
   ],
-  "last_updated": "2026-10-03T01:00:20.961546+00:00"
+  "last_updated": "2026-10-04T00:24:56.240581+00:00"
 }
