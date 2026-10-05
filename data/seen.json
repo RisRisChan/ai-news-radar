@@ -1,18 +1,5 @@
 {
   "urls": [
-    "https://www.itmedia.co.jp/enterprise/articles/2605/28/news055.html",
-    "https://www.itmedia.co.jp/aiplus/article/2605/28/2000000032/",
-    "https://www.itmedia.co.jp/aiplus/article/2605/28/2000000024/",
-    "https://www.itmedia.co.jp/aiplus/article/2605/28/2000000031/",
-    "https://www.anthropic.com/news/milan-office-opening",
-    "https://techcrunch.com/2026/05/29/coders-are-refusing-to-work-without-ai-and-that-could-come-back-to-bite-them/",
-    "https://www.itmedia.co.jp/news/articles/2605/30/news031.html",
-    "https://github.com/anthropics/claude-code/releases/tag/v2.1.157",
-    "https://blog.google/innovation-and-ai/technology/ai/io-2026-vibe-coded-quiz/",
-    "https://techcrunch.com/2026/05/29/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
-    "https://techcrunch.com/video/what-happens-when-companies-become-too-ai-pilled/",
-    "https://www.theverge.com/ai-artificial-intelligence/940007/ai-companies-will-pay-for-robot-training-data",
-    "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-omni-3-5-videos/",
     "https://techcrunch.com/2026/05/29/after-nvidias-20b-not-acqui-hire-ai-chip-startup-groq-reportedly-raising-650m/",
     "https://techcrunch.com/2026/05/29/cognitions-scott-wu-says-ai-coding-agents-shouldnt-replace-humans/",
     "https://techcrunch.com/2026/05/29/today-is-the-last-day-to-apply-to-speak-at-techcrunch-disrupt-2026/",
@@ -4999,7 +4986,20 @@
     "https://gigazine.net/news/20261003-apple-limit-mac-full-disk-access-ai-agents-risk/",
     "https://www.itmedia.co.jp/news/article/2610/03/2000001984/",
     "https://www.itmedia.co.jp/news/article/2610/03/2000001983/",
-    "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/"
+    "https://arstechnica.com/security/2026/10/apple-changes-full-disk-access-permissions-to-curb-abuse-from-ai-agents/",
+    "https://www.itmedia.co.jp/news/article/2610/05/2000001937/",
+    "https://www.itmedia.co.jp/news/article/2610/05/2000001990/",
+    "https://www.itmedia.co.jp/business/articles/2610/05/news037.html",
+    "https://pc.watch.impress.co.jp/docs/topic/special/2140650.html",
+    "https://techcrunch.com/2026/10/04/google-froze-its-open-source-bug-bounty-program-due-to-a-significant-rise-in-ai-submissions/",
+    "https://techcrunch.com/2026/10/04/can-super-intelligence-and-a-non-binding-safety-pact-solve-ais-image-problem/",
+    "https://www.theverge.com/ai-artificial-intelligence/1004549/well-if-ai-said-it-it-must-be-true",
+    "https://www.theverge.com/ai-artificial-intelligence/1004543/openai-gpt-cheat-starcraft",
+    "https://techcrunch.com/2026/10/04/trump-unveils-his-new-super-intelligence-force/",
+    "https://gigazine.net/news/20261004-mobile-stationery-business-card-case/",
+    "https://gigazine.net/news/20261004-cloudflare-quick-tunnels/",
+    "https://www.itmedia.co.jp/news/article/2610/04/2000001987/",
+    "https://gigazine.net/news/20261004-openai-safety-employee-resigns-culture-broken/"
   ],
-  "last_updated": "2026-10-04T00:24:56.240581+00:00"
+  "last_updated": "2026-10-05T00:35:28.908685+00:00"
 }
