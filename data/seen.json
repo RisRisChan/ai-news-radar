@@ -1,17 +1,5 @@
 {
   "urls": [
-    "https://www.itmedia.co.jp/aiplus/article/2606/06/2000000065/",
-    "https://techcrunch.com/2026/06/05/airtrunk-commits-30b-to-build-5gw-of-ai-data-centers-in-india/",
-    "https://www.technologyreview.com/2026/06/05/1138437/the-meta-hack-shows-theres-more-to-ai-security-than-mythos/",
-    "https://pc.watch.impress.co.jp/docs/news/event/2114932.html",
-    "https://gigazine.net/news/20260605-uber-caps-ai/",
-    "https://gigazine.net/news/20260605-anthropic-ai-build-itself/",
-    "https://gigazine.net/news/20260605-uc-berkeley-failing-grades-ai-math/",
-    "https://pc.watch.impress.co.jp/docs/news/event/2114828.html",
-    "https://github.com/anthropics/claude-code/releases/tag/v2.1.165",
-    "https://gigazine.net/news/20260605-magenta-realtime-2-live-music-ai/",
-    "https://techcrunch.com/2026/06/04/mira-murati-steps-back-into-the-spotlight-carefully/",
-    "https://pc.watch.impress.co.jp/docs/news/2114800.html",
     "https://gigazine.net/news/20260605-llm-resisting-russian-propaganda/",
     "https://pc.watch.impress.co.jp/docs/news/2114768.html",
     "https://gigazine.net/news/20260605-lm-studio-lm-link-locally/",
@@ -4999,7 +4987,19 @@
     "https://gigazine.net/news/20261009-anthropic-policy-update/",
     "https://www.itmedia.co.jp/news/article/2610/09/2000002159/",
     "https://www.itmedia.co.jp/news/article/2610/09/2000002157/",
-    "https://www.anthropic.com/research/investigating-unintended-model-actions"
+    "https://www.anthropic.com/research/investigating-unintended-model-actions",
+    "https://gigazine.net/news/20261011-anthropic-ai-gave-fake-tip-unsolved-homicide/",
+    "https://www.theverge.com/ai-artificial-intelligence/1009337/satya-nadella-says-we-should-assume-all-ai-models-are-compromised",
+    "https://techcrunch.com/2026/10/10/microsofts-satya-nadella-says-ai-models-need-an-emergency-brake/",
+    "https://techcrunch.com/2026/10/10/apple-discloses-deal-to-hire-team-and-license-tech-from-personalized-podcast-startup-huxe/",
+    "https://www.theverge.com/entertainment/1009309/distrokid-take-down-songs-umg-lawsuit",
+    "https://techcrunch.com/2026/10/10/3-days-to-disrupt-2026-meet-the-startups-before-they-hit-mainstream/",
+    "https://www.theverge.com/ai-artificial-intelligence/1009286/anthropic-is-cutting-off-its-internal-evaluations-from-the-internet",
+    "https://techcrunch.com/2026/10/10/all-the-ai-agents-that-can-live-in-your-text-messages/",
+    "https://www.theverge.com/ai-artificial-intelligence/1009051/privacy-ai-agent-promises-openai-meta-muse-dots",
+    "https://gigazine.net/news/20261010-readest/",
+    "https://gigazine.net/news/20261010-sony-rx10-v-photo-example/",
+    "https://pc.watch.impress.co.jp/docs/news/todays_sales/2147329.html"
   ],
-  "last_updated": "2026-10-10T01:35:11.738320+00:00"
+  "last_updated": "2026-10-11T00:44:54.477333+00:00"
 }
