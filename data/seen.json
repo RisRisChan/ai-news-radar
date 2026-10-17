@@ -1,16 +1,5 @@
 {
   "urls": [
-    "https://www.itmedia.co.jp/aiplus/article/2606/11/2000000079/",
-    "https://gigazine.net/news/20260611-can-ai-spot-next-football-superstar/",
-    "https://gigazine.net/news/20260611-microsoft-claude-fable-5/",
-    "https://www.itmedia.co.jp/news/articles/2606/11/news075.html",
-    "https://pc.watch.impress.co.jp/docs/news/todays_sales/2116178.html",
-    "https://openai.com/index/openai-to-acquire-ona",
-    "https://openai.com/index/supporting-eu-trustworthy-ai-ecosystem",
-    "https://openai.com/index/bbva",
-    "https://www.itmedia.co.jp/aiplus/article/2606/11/2000000078/",
-    "https://www.anthropic.com/news/claude-corps",
-    "https://www.anthropic.com/news/dxc-anthropic-alliance",
     "https://techcrunch.com/2026/06/12/spacex-ipo-live-updates-on-everything-you-need-to-know/",
     "https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/",
     "https://monoist.itmedia.co.jp/mn/articles/2606/13/news019.html",
@@ -4999,7 +4988,18 @@
     "https://www.anthropic.com/research/ai-expectations-gap",
     "https://www.anthropic.com/research/employment-at-anthropic",
     "https://www.anthropic.com/research/expectations-for-the-future",
-    "https://openai.com/index/sullivan-cromwell"
+    "https://openai.com/index/sullivan-cromwell",
+    "https://atmarkit.itmedia.co.jp/ait/articles/2610/18/news004.html",
+    "https://techcrunch.com/2026/10/17/meta-removes-language-that-raised-scraping-and-ai-training-concerns/",
+    "https://techcrunch.com/2026/10/17/anthropic-says-its-workforce-has-become-less-junior-and-is-spending-more-time-in-meetings/",
+    "https://techcrunch.com/2026/10/17/replit-is-no-longer-working-with-anthropic-ceo-says/",
+    "https://www.theverge.com/tech/1013409/meta-removes-language-that-may-have-allowed-it-to-scrape-news-sites",
+    "https://pc.watch.impress.co.jp/docs/news/2149045.html",
+    "https://www.theverge.com/ai-artificial-intelligence/1013195/ai-agents-blocked-web",
+    "https://gigazine.net/news/20261017-agentsview/",
+    "https://atmarkit.itmedia.co.jp/ait/articles/2610/17/news007.html",
+    "https://pc.watch.impress.co.jp/docs/news/todays_sales/2149005.html",
+    "https://openai.com/index/benefit-street-partners"
   ],
-  "last_updated": "2026-10-17T00:13:21.829239+00:00"
+  "last_updated": "2026-10-17T23:52:32.671403+00:00"
 }
